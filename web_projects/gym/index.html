@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    html,body{
+        height: 100%;
+    }
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        font-family: Bebas Neue;
+    }
+    .bg{
+        height: 100%;
+        background: url(gym_project_1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 100px;
+        top: 25px;
+    }
+    .mid{
+        display: block;
+        /* border: 2px solid yellow; */
+        width: 35%;
+        margin: 40px 1000px;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 24px;
+    }
+    .right{
+        display: inline-block;
+        /* border: 2px solid green; */
+        position: absolute;
+        right: 100px;
+        top: 25px;
+    }
+    .navbar li a:hover{
+        /* text-decoration: underline; */
+        color: rgb(255, 47, 47);
+    }
+    .logoname{
+        /* border: 2px solid orange; */
+        display: inline-block;
+        position: absolute;
+        width: 200px;
+        top: 9px;
+        left: 65px;
+        font-size: 30px;
+    }
+    .btn{
+        border-radius: 30px;
+        padding: 15px;
+        font-size: 20px;
+        background-color: rgb(255, 47, 47);
+        color: white;
+        cursor: pointer;
+        font-family: Bebas Neue;
+        width: 150px;
+    }
+    .btn:hover{
+        background-color: rgb(176, 0, 0);
+    }
+    .container{
+        display: inline-block;
+        /* border: 2px solid green; */
+        position: absolute;
+        top: 150px;
+        left: 100px;
+        font-size: 70px;
+        width: 550px;
+    }
+    .col{
+        display: inline-block;
+        color: rgb(255, 47, 47);
+    }
+    .up{
+        font-size: 30px;
+    }
+</style>
+<body class="bg">
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt="" width="50" height="50">
+            <div class="logoname">Arun Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Schedule</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <!-- right box for membership -->
+        <div class="right">
+            <a href=""><button class="btn">MEMBERSHIP</button></a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="up">Shape your body</div>
+        The body <div class="col">achieves</div> what the mind <div class="col">believes</div>   
+    </div>
+    <div class="box">
+
+    </div>
+
+</body>
+</html>
